@@ -14,4 +14,4 @@
 - Base de Dados: SQLServer (.mdf).
 - Arquitetura do Projeto: a arquitetura do projeto está dividido atualmente em duas camadas (N-tier) a saber: 
 ** DentalWhite.UI:** Camada de Apresentação responsável pela interface com o usuário; <br />;
-** DentalWhite.DAL:** Camada de Repositório de Dados baseada em um Sistema de Gerenciamento de Banco de Dados onde sua finalidade é acessar, manipular e persistir todos os dados da aplicação;<br />.
+** DentalWhite.DAL:** Camada de Repositório de Dados baseada em um Sistema de Gerenciamento de Banco de Dados onde sua finalidade é acessar, manipular e persistir todos os dados da aplicação.<br />.
