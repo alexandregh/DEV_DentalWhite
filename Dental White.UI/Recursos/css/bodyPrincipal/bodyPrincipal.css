@@ -1,0 +1,138 @@
+﻿#boxBemVindo
+{
+    border: 2px double #CCCCCC;
+    border-radius:10px 10px;
+    padding:20px;
+    margin-bottom:20px;
+    display: block;
+    position: relative;
+    width: 45%;
+    height: 392px;
+    float: left;
+}
+
+/*--- Page Principal ---*/
+#boxSlidePrincipal
+{
+    display:block;
+    position:relative;
+    margin-bottom:20px;
+    width:45%;
+    padding:25px;
+    height:392px;
+    float:right;
+}
+#boxServicosProfissionais
+{
+    border: 2px double #CCCCCC;
+    border-radius:10px 10px;
+    padding:20px;
+    display:block;
+    position:relative;
+    width:45%;
+    height:392px;
+    float:left;
+}
+.lista
+{
+    list-style-type: square;
+    list-style-position: inside;
+}
+/*--- Page Principal ---*/
+
+/*--- Page Área Restrita ---*/
+#boxPerfilUsuário
+{
+    display:block;
+    border: 2px double #CCCCCC;
+    padding:20px;
+    width:45%;
+    height:220px;
+    margin-left:5px;
+    float:left;
+}
+.boxLoginUsuario
+{
+    display:block;
+    border: 2px double #CCCCCC;
+    padding:20px;
+    width:45%;
+    height:220px;
+    margin-right:5px;
+    float:right;
+}
+/*--- Page Área Restrita ---*/
+
+/*--- Page All Cadastro ---*/
+.frmCadastroPaciente
+{
+    border: 2px solid #CCCCCC;
+    border-radius:10px 10px;
+    display: block;
+    padding:20px;
+    height: auto;
+    width: 93%;
+    margin-left:10px;
+    margin-bottom:10px;
+    float:left;
+}
+.boxContainnerMensagem
+{
+    border: 2px solid #CCCCCC;
+    border-radius:10px 10px;
+    display: block;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:-30px;
+    height: auto;
+    width: 97%;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:5px;
+    margin-top:5px;
+    float:left;
+    background-color:aliceblue;
+}
+/*--- Page All Cadastro ---*/
+
+/*--- Page All Pesquisa ---*/
+.boxContainnerTipoPesquisa
+{
+    border: 2px solid #CCCCCC;
+    border-radius:10px 10px;
+    display: block;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:-30px;
+    height: auto;
+    width: 97%;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:5px;
+    margin-top:5px;
+    float:left;
+    background-color:aliceblue;
+}
+/*--- Page All Pesquisa ---*/
+
+/*--- Page All Especialidade ---*/
+.boxContainnerEspecialidades
+{
+    border: 2px solid #CCCCCC;
+    border-radius:10px 10px;
+    display: block;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:-30px;
+    height: auto;
+    width: 95%;
+    margin-left:10px;
+    margin-right:-10px;
+    margin-bottom:5px;
+    margin-top:5px;
+    float:left;
+}
+/*--- Page All Especialidade ---*/

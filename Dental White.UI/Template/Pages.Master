@@ -1,0 +1,189 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pages.master.cs" Inherits="Dental_White.UI.Template.Pages" EnableTheming="false" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="box">
+            <header id="header">
+                <aside>
+                    <img id="titleHeader" src="../../Recursos/imagens/dentalwhite/dentalwhite.png" alt="Dental White" title="Dental White" />
+                    <img id="logoHeader" src="../../Recursos/imagens/dentalwhite/logodentalwhite.png" alt="Dental White" title="Dental White" />
+                </aside>
+                <nav style="float:right;">
+                    <ul class="dropdown">
+                        <li><a href="#">Dental White</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../Default.aspx">Página Principal</a></li>
+                                <li><a href="#">Quem Somos</a></li>
+                                <li><a href="#">Missão</a></li>
+                                <li><a href="#">História</a></li>
+                                <li><a href="#">Valores</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Clientes</a>
+                            <ul class="sub_menu">
+                                <li>
+                                    <a href="#">Paciente</a>
+                                    <ul>
+                                        <li><asp:LinkButton ID="LinkGerenciarPaciente" runat="server" OnClick="LinkGerenciarPaciente_Click">Gerenciar Paciente</asp:LinkButton></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Dependente</a>
+                                    <ul>
+                                        <li><a href="#">Area Tarps</a></li>
+                                        <li><a href="#">Growth Covers / Protectors</a></li>
+                                        <li><a href="#">Infield Tarps</a></li>
+                                        <li><a href="#">Tarp Accessories</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Colaboradores</a>
+                            <ul class="sub_menu">
+                                <li>
+                                    <a href="#">Dentista</a>
+                                    <ul>
+                                        <li><a href="#">Base Accessories</a></li>
+                                        <li><a href="#">Bases &amp; Home Plates</a></li>
+                                        <li><a href="#">Game Accessories</a></li>
+                                        <li><a href="#">Pitching Rubbers</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Assistente</a>
+                                    <ul>
+                                        <li><a href="#">Backstops</a></li>
+                                        <li><a href="#">Infield Screens</a></li>
+                                        <li><a href="#">Jugs Pitching Machines</a></li>
+                                        <li><a href="#">Turf Mats</a></li>
+                                        <li><a href="#">Turf Protectors</a></li>
+                                        <li><a href="#">Replacement Accessories</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Atendente</a>
+                                    <ul>
+                                        <li><a href="#">Indoor</a></li>
+                                        <li><a href="#">Outdoor</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Consultas</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">Ladders &amp; Sticks</a></li>
+                                <li><a href="#">Hurdles</a></li>
+                                <li><a href="#">Training Accessories</a></li>
+                                <li><a href="#">Smart-Cart Training System</a></li>
+                                <li><a href="#">Smart-Hurdle Collection</a></li>
+                                <li><a href="#">- VIEW ALL - </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Setores</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">Field Design &amp; Maintenance</a></li>
+                                <li><a href="#">Turf Management</a></li>
+                                <li><a href="#">Training</a></li>
+                                <li><a href="#">- VIEW ALL - </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Serviços</a>
+                            <ul class="sub_menu">
+                                <li><a href="../../Pages/Servicos/Especialidades/Consultar/Default.aspx">Consultar Especialidades</a></li>
+                                <li><a href="#">Listar Especialidades</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Convênios</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">Field Design &amp; Maintenance</a></li>
+                                <li><a href="#">Turf Management</a></li>
+                                <li><a href="#">Training</a></li>
+                                <li><a href="#">- VIEW ALL - </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contato</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">Field Design &amp; Maintenance</a></li>
+                                <li><a href="#">Turf Management</a></li>
+                                <li><a href="#">Training</a></li>
+                                <li><a href="#">- VIEW ALL - </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">SUCC - Dental White</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">O que é SUCC - Dental White</a></li>
+                                <li><a href="Default.aspx">Área Restrita</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderSectionBody" runat="server">
+                <section id="sectionBody">
+                    <section id="contentBody">
+                        <uc1:WUCBemVindo runat="server" ID="WUCBemVindo" />
+                    </section>
+                </section>
+            </asp:ContentPlaceHolder>
+            <footer id="footerPrincipal">
+                <aside id="antesEDepois">
+                    <img id="logoAntesDepois" src="../../Recursos/imagens/dentalwhite/antesdepois.png" alt="Antes e Depois" title="Antes e Depois" />
+                </aside>
+                <aside id="dicasEspecialistas">
+                    <img id="logoDicasEspecialistas" src="../../Recursos/imagens/dentalwhite/dicasespecialistas.png" alt="Dicas dos Especialistas" title="Dicas dos Especialistas" />
+                </aside>
+                <aside id="localizacao">
+                    <img id="logoLocalizacao" src="../../Recursos/imagens/dentalwhite/localizacao.png" alt="Localização" title="Localização" />
+                </aside>
+                <aside id="boxAntesDepois">
+                    <div id="coin-slider-footer">
+                        <img class="figurasAntesDepois" src="../../Recursos/imagens/dentalwhite/limpeza.jpg">
+                        <img class="figurasAntesDepois" src="../../Recursos/imagens/dentalwhite/aparelho.jpg">
+                        <img class="figurasAntesDepois" src="../../Recursos/imagens/dentalwhite/implante.jpg">
+                    </div>
+                </aside>
+                <aside id="boxDicasEspecialistas">
+                    <asp:TextBox CssClass="txtDicasEspecialistas" ID="txtDicasEspecialistas" runat="server" ReadOnly="True" TextMode="MultiLine" Height="248px" Width="325px" BackColor="#FFFF99" EnableTheming="False" EnableViewState="False" Font-Names="Times New Roman" Font-Size="14pt" Placeholder="Atualmente não existem dicas..."></asp:TextBox>
+                </aside>
+                <aside id="boxLocalizacao">
+                    <img src="../../Recursos/imagens/dentalwhite/mapa.jpg" alt="Mapa Dental White" title="Mapa Dental White" style="display: block; padding: 0px;" />
+                    <br />
+                    <small style="text-align: center;"><a href="https://maps.google.com.br/maps/myplaces?ctz=180&amp;ie=UTF8&amp;ll=-22.862924,-43.491445&amp;spn=0.00301,0.005284&amp;t=h&amp;z=18&amp;source=embed" target="_blank" style="color: #0000FF; text-align: center;">Exibir mapa ampliado</a></small>
+                </aside>
+                <aside id="asideRedesSociais">
+                    <br /><hr />
+                    <img class="logoRedesSociais" src="../../Recursos/imagens/dentalwhite/logoface.png" alt="Facebook" title="Facebook" />
+                    <img class="logoRedesSociais" src="../../Recursos/imagens/dentalwhite/logotwitter.png" alt="Twitter" title="Twitter" />
+                    <hr />
+                </aside>
+            </footer>
+            <footer id="footerBotton">
+                <aside style="width: 55%; float: left;">
+                    <p>Endereço: Avenida dos Dentes Perfeitos e Brancos.</p>
+                    <p>Rio de Janeiro</p>
+                    <p>Brasil.</p>
+                    <p>CNPJ: 52.506.694/0001-37</p>
+                </aside>
+                <aside style="width: 45%; float: right;">
+                    <p>Contato:</p>
+                    <p>Telefones: (21)1234-5678 / (21)2345-6789</p>
+                    <p>E-mail: faleconosco@dentalwhite.com.br</p>
+                    <p>Fax: (21)321-123</p>
+                </aside>
+                <aside style="float: left; width: 100%;">
+                    <p id="copyright">Copyright © 2015 - All Rights Reserved - por Dental White LTDA.</p>
+                </aside>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

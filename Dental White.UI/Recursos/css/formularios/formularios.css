@@ -1,0 +1,207 @@
+﻿fieldset
+{
+    border: 2px solid #CCCCCC;
+    padding:5px;
+}
+
+/* --- PÁGINA RECUPERAR USUÁRIO ---*/
+#fieldsetRecuperarUsuario
+{
+    display:block;
+    width:48%;
+    margin-left:10px;
+    float:left;
+    min-height:200px;
+}
+/* --- PÁGINA RECUPERAR USUÁRIO ---*/
+
+/* --- PÁGINA RECUPERAR SENHA ---*/
+#fieldsetRecuperarSenha
+{
+    display:block;
+    width:48%;
+    margin-left:10px;
+    float:left;
+    min-height:200px;
+}
+/* --- PÁGINA RECUPERAR SENHA ---*/
+
+/* --- PÁGINA CADASTRAR PACIENTE ---*/
+#fieldsetDadosPessoais
+{
+    display:block;
+    width:48%;
+    float:left;
+    min-height:260px;
+}
+#fieldsetDadosPessoais:hover 
+{
+    background-color: #faf7f7;
+    transition: all 2s linear; 
+    -webkit-transition: all 3s linear;
+    -moz-transition: all 3s linear;
+    -o-transition: all 3s linear;
+    -ms-transition: all 3s linear;
+}
+.extfieldsetDadosPessoais
+{
+    display:block;
+    width:48%;
+    float:left;
+    min-height:405px;
+}
+#fieldsetDocumentos
+{
+    display:block;
+    width:48%;
+    margin-left:10px;
+    float:left;
+    min-height:355px;
+}
+#fieldsetDocumentos:hover 
+{
+    background-color: #faf7f7;
+    transition: all 2s linear; 
+    -webkit-transition: all 3s linear;
+    -moz-transition: all 3s linear;
+    -o-transition: all 3s linear;
+    -ms-transition: all 3s linear;
+}
+#fieldsetTelefone
+{
+    display:block;
+    width:48%;
+    float:left;
+    min-height:330px;
+}
+#fieldsetTelefone:hover
+{
+    background-color: #faf7f7;
+    transition: all 2s linear; 
+    -webkit-transition: all 3s linear;
+    -moz-transition: all 3s linear;
+    -o-transition: all 3s linear;
+    -ms-transition: all 3s linear;
+}
+#fieldsetEndereco
+{
+    display:block;
+    width:48%;
+    margin-left:10px;
+    float:left;
+    min-height:330px;
+}
+#fieldsetEndereco:hover
+{
+    background-color: #faf7f7;
+    transition: all 2s linear; 
+    -webkit-transition: all 3s linear;
+    -moz-transition: all 3s linear;
+    -o-transition: all 3s linear;
+    -ms-transition: all 3s linear;
+}
+.fieldsetGerenciarPaciente
+{
+    display:block;
+    width:48%;
+    margin-left:10px;
+    float:left;
+    min-height:330px;
+}
+/* --- PÁGINA CADASTRAR PACIENTE ---*/
+
+/* --- PÁGINA INSERIR FOTO ---*/
+#fieldsetInserirFoto
+{
+    display:block;
+    width:48%;
+    margin-left:5px;
+    float:left;
+    min-height:430px;
+}
+#fieldsetImagemFoto
+{
+    display:block;
+    width:48%;
+    margin-left:5px;
+    float:left;
+    min-height:430px;
+    padding-top:20px;
+}
+.buttonInserirFoto
+{
+    position:relative;
+    top:215px;
+}
+/* --- PÁGINA INSERIR FOTO ---*/
+
+legend
+{
+    font-weight:bold;
+}
+label
+{
+    font-weight:400;
+}
+.lblPerfilUsuario
+{
+    font-family:Verdana;
+    font-size:14px;
+    text-align:justify;
+}
+.button
+{
+    padding: 5px;
+    background-color: #E7F6F9;
+    width: 100%;
+    border: 2px solid #CCCCCC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+}
+.buttonMiddle
+{
+    padding: 5px;
+    background-color: #E7F6F9;
+    width: 49.5%;
+    border: 2px solid #CCCCCC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+}
+.textbox
+{
+    background-color: #ffffff;
+    border: 2px solid #CCCCCC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.textbox:hover
+{
+    background-color: #FFFFCC;
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+}
+.Panel
+{
+    display:block;
+    width:29.5%;
+    float:right;
+}
+
+/*--- Page Área Restrita ---*/
+#fieldsetPerfilUsuário
+{
+    margin-bottom:28px;
+}
+.rdbPerfilUsuario
+{
+    padding-bottom:10px;
+}
+/*--- Page Área Restrita ---*/
